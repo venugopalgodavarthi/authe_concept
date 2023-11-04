@@ -1,4 +1,3 @@
-from typing import Any
 from django import forms
 from authe.models import user_model
 from django.contrib.auth.hashers import make_password
