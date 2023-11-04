@@ -29,7 +29,7 @@ def login_view(request):
 
 def logout_view(request):
     logout(request)  # session destroy
-    return HttpResponse("logout is success")
+    return redirect('/login/')
 
 
 def home_view(request):
